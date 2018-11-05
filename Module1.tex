@@ -1,0 +1,174 @@
+\documentclass[11pt, english]{memoir}
+
+\usepackage{babel}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage[utf8]{inputenc}   % LaTeX pour les accents 
+\usepackage[T1]{fontenc}      % LaTeX pour les accents 
+\usepackage{icomma}
+\usepackage{framed}
+\usepackage{geometry}
+\usepackage{graphicx}
+
+\usepackage{enumitem}
+\setlist{nosep} % or \setlist{noitemsep} to leave space around whole list
+\renewcommand\labelitemi{--}
+
+
+%Pour redéfinir le format des titres de sections
+%\usepackage{titlesec}
+%\titleformat{\subsection}{\normalfont\sffamily\bfseries\LARGE\raggedright}{\thesection}%{1em}{}
+\renewcommand{\chaptitlefont}{\normalfont\scshape\bfseries\Huge\raggedright}
+%Une autre option est la commande suivante
+\setsecheadstyle{\normalfont\bfseries\scshape\Large}
+
+%pour le niveau de "profondeur" de la table des matières
+\usepackage{tocloft}
+\setsecnumdepth{subsection}
+
+%pour la couleur des hyperliens de la table des matières 
+\usepackage[colorlinks]{hyperref}
+\hypersetup{linkcolor=blue}
+
+%Pour, entre autre, pouvoir mettre une bordure sur des équations sur plusieurs lignes 
+\usepackage{tcolorbox}
+\tcbuselibrary{theorems, breakable}
+\tcbset{colback = white, colframe = black, arc = 0mm, breakable}
+
+
+\newtheorem{definition}{définition}
+\numberwithin{definition}{section} 
+
+\newtheorem{theorem}{Théorème}
+\newtheorem{conjecture}{Propriété}
+\newtheorem{example}{Exemple}[section]
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}{Remarque}
+
+\newenvironment{proof}[1][Démonstration]{\noindent\ }{\ \rule{0.5em}{0.5em}}
+\newenvironment{exemple}
+{
+	\begin{example} \normalfont \ \\[5pt] 
+	}
+	{
+		\hfill\rule{0.5em}{0.5em}\end{example}
+}
+
+\newenvironment{solution}
+{\noindent\textbf{Solution:} \\[5pt] 
+}{
+}
+
+
+\geometry{headsep=15pt}
+\normalsize\setlength{\parskip}{\baselineskip}
+\setlength{\oddsidemargin}{25mm}
+\setlength{\evensidemargin}{25mm}
+\setlength{\voffset}{-1in}
+\setlength{\hoffset}{-1in}
+\setlength{\textwidth}{165mm}
+\setlength{\topmargin}{0mm}
+\setlength{\headheight}{15mm}
+\setlength{\headsep}{11mm}
+\setlength{\topskip}{0mm}
+\setlength{\textheight}{222mm}
+
+
+% Pour enlever l'INDENTATION 
+\setlength\parindent{0pt}
+
+
+
+% POUR DÉFINIR UNE NOUVELLE COMMANDE (ici l'opérateur de MOYENNE EMPIRIQUE) 
+\newcommand{\mean}[1]{\bar{#1}}
+
+\newcommand{\Var}{\text{Var}}
+\newcommand{\Cov}{\text{Cov}}
+\newcommand{\E}{\text{\textbf{E}}}
+
+
+
+
+\begin{document}
+	
+\title{Module 1 : Summary}
+\date{}
+\author{François Déry}
+\maketitle
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
