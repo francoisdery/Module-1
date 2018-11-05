@@ -21,7 +21,7 @@
 %\titleformat{\subsection}{\normalfont\sffamily\bfseries\LARGE\raggedright}{\thesection}%{1em}{}
 \renewcommand{\chaptitlefont}{\normalfont\scshape\bfseries\Huge\raggedright}
 %Une autre option est la commande suivante
-\setsecheadstyle{\normalfont\bfseries\scshape\Large}
+%\setsecheadstyle{\normalfont\bfseries\scshape\Large}
 
 %pour le niveau de "profondeur" de la table des matières
 \usepackage{tocloft}
@@ -88,6 +88,8 @@
 \newcommand{\E}{\text{\textbf{E}}}
 
 
+\newenvironment{smalltext}
+{\footnotesize }{\normalsize}
 
 
 \begin{document}
@@ -99,60 +101,104 @@
 
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+\tableofcontents{}
+\newpage
+
+
+\chapter{Introduction to Risk Management}
+\section{Understanding and Quantifying Risk}
+
+
+Risk can be used in many contexts in risk management and insurance and can have any of the following meanings:
+
+\begin{enumerate}
+	\item The subject matter of an insurance policy, such as a structure, an auto fleet, or the possibility of a liability claim arising from an insured’s activities;
+	\item The insurance applicant (the insured);
+	\item The possibility of bodily injury or property damage;
+	\item A cause of loss (or peril), such as fire, lightning, or explosion;
+	\item The variability associated with a future outcome.
+\end{enumerate}
+
+Within the definition, there are always to elements : the \emph{uncertainty of outcome} (what/when is the event)  and the \emph{possibility of negative outcome}. 
+
+It's important to note that possibility does not quantify risk : one needs to know the \emph{probability} of the event in order to adequately quantify it. In contrast, possibility only dictates if an outcome may or may not occur. 
+
+
+
+
+
+
+
+\section{Risk Classification}
+
+In order to better understand and manage risks, organization typically categorize risks using one or more of following categories : 
+\begin{enumerate}
+	\item Pure and speculative risk; 
+	\item Subjective and objective risk;
+	\item Diversifiable and nondiversifiable risk;
+	\item Quadrant of risk (hazard, operational, finanacial and strategic).
+\end{enumerate}
+
+
+\subsection{Pure and Speculative Risk}
+
+A \emph{pure risk} is a chance of a loss or no loss, but \emph{no chance of gain}. For example, the fire of a fire loss : the building can burn of not burn. Either way, the owner of the building won't gain anything from the risk. As they represent no opportunity for financial gain, \emph{pure risks are always undesirable}. 
+
+In contrast, \emph{speculative risk involves a chance of gain}. For example, venture capitalism is a speculative risk : it represents a financial risk which has enormous profit potential. Hence, this type of risk is desirable. Other examples are : 
+\begin{itemize}
+	\item Price risk;\\
+	\begin{smalltext}
+		Possible changes in material costs, for example.
+	\end{smalltext} 
+	\item Credit risk;
+	\item Financial investments. 
+\end{itemize}
+
+The financial investment are usually categorized into four types of speculative risk : 
+\begin{enumerate}
+	\item Market risk ; \\
+	\begin{smalltext}
+		Risk associated with the fluctuation in price of stocks and bonds.
+	\end{smalltext} 
+	\item Inflation risk ;
+	\item Interest rate risk ;
+	\item Liquidity risk. 
+\end{enumerate}
+
+
+\subsection{Subjective and Objective Risk}
+
+The differentiation between the two comes from the source of assessments regarding the risks : opinions (which are \emph{subjective}) or facts (\emph{objective}).
+
+The closer an organization's subjective interpretation of risk is to an objective risk, the more effective its risk management will be. 
+
+Here are the reason why subjective and objective risk can differ substantially  : 
+\begin{enumerate}
+	\item Familiarity and control;
+	\item Consequences over likelihood ;\\
+	\begin{smalltext}
+		Either underrating the probability of a low probablitity event, of overstating the probability. In both cases, the assessment of the consequence over the likelihood is wrong.
+	\end{smalltext}
+	\item Risk awareness ;\\
+	\begin{smalltext}
+		Of course, if you're not aware that a risk exists, the subjective risk will be wrong.
+	\end{smalltext}
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 \end{document}
 

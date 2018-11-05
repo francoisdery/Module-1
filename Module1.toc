@@ -1,0 +1,7 @@
+\babel@toc {english}{}
+\contentsline {chapter}{Contents}{1}{section*.1}
+\contentsline {chapter}{\chapternumberline {1}Introduction to Risk Management}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Understanding and Quantifying Risk}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Risk Classification}{3}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Pure and Speculative Risk}{3}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Subjective and Objective Risk}{4}{subsection.1.2.2}
